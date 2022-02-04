@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void  main() {
+    int i;
+    puts("enter a string");
+    gets(x);
+    for(i=0;i<strlen(x);i++)
+    {
+  if(isupper(x[i]))      
+     printf("%c",tolower(x[i]));
+     else if(islower(x[i]))
+     printf("%c",toupper(x[i]));
+     else
+printf("%c",x[i]);
+    }
+    return 0;
+}
